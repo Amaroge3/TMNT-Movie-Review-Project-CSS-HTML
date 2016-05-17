@@ -73,7 +73,8 @@ div p.bannertext{
 	overflow: auto;
 	width: 73%;
 	float: left;
-	padding-bottom: 130px;
+	height:1054px;
+	padding-bottom: 33px;
 }
 /*
 * paragraphs inside the div properties
@@ -131,7 +132,7 @@ div p.bannertext{
 	width: 27%;
 	float: right;
 	border-top-right-radius: 20px;
-	padding-bottom: 45px;
+	height: 1181px;
 }
 
 #rightgreencol p {
