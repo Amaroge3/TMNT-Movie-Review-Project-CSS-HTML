@@ -1,3 +1,6 @@
+/*****************
+	HEADER
+******************/
 
 header {
 	text-align: center;
@@ -16,6 +19,10 @@ body {
 	background-color: #A2B964;
 	}
 	
+/***********************
+	MIDDLE BANNER
+************************/	
+
 div.middle {
 	background: url(../img/rottenlargebg.png) repeat-x;
 	border-top-left-radius: 20px;
@@ -35,7 +42,9 @@ div.middle {
 	padding: 0;
 	outline: none;
 }
-
+/*
+TMNT image
+*/
 .tmnt {
 	border-top-right-radius: 20px;
 	padding:0;
@@ -54,6 +63,9 @@ div p.bannertext{
 	font-weight: bold;
 }
 
+/**************************
+	PARAGRAPHS
+****************************/
 #paragraphs {
 	background: lightgray;
 	margin:0;
@@ -62,7 +74,9 @@ div p.bannertext{
 	width: 73%;
 	float: left;
 }
-
+/*
+* paragraphs inside the div properties
+*/
 #paragraphs p {
 	font-size: 16px;
 	background: white;
@@ -71,7 +85,9 @@ div p.bannertext{
 	border-radius: 20px;
 	padding: 10px 10px 10px 10px;
 }
-
+/*
+* paragraphs image css properties  
+*/
 #paragraphs p img {
 	display: block;
 	margin: 0;
@@ -79,12 +95,18 @@ div p.bannertext{
 	padding: 0;
 }
 
+/*
+* left side paragraphs of the paragraphs div
+*/
 .leftParagraphs {
 	float: left;
 	width: 40%;
 	margin-left: 20px;
 }
-	
+
+/*
+* right side paragraphs of the paragraphs div
+*/
 .rightParagraphs {
 	float: right;
 	width: 40%;
@@ -98,6 +120,10 @@ div p.bannertext{
 	margin-top: 0;
 	margin-bottom: 0;
 }
+
+/************************
+	RIGHT GREEN COLUMN
+**************************/
 
 #rightgreencol {
 	background: green;
@@ -114,6 +140,7 @@ div p.bannertext{
 #rightgreencol li {
 	list-style: none;
 }
+
 footer {
 background: green;
 clear: both;
