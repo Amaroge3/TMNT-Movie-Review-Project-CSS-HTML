@@ -1,0 +1,129 @@
+
+header {
+	text-align: center;
+	margin-bottom: 0;
+	}
+
+header p {
+	font-weight: bold;
+	font-size: 1.7em;
+	text-shadow: 1px 1px 1px;
+	}
+
+body {
+	background: url(../img/rancidbannerbg.png) repeat-x;
+	margin:0;
+	background-color: #A2B964;
+	}
+	
+div.middle {
+	background: url(../img/rottenlargebg.png) repeat-x;
+	border-top-left-radius: 20px;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	width:73%;
+	float:left;
+	position: relative; 
+	}
+
+.rottenimage {
+	margin-left: 15px;
+	margin-right: 0;
+	padding-top: 0;  
+	line-height: 0;
+	padding: 0;
+	outline: none;
+}
+
+.tmnt {
+	border-top-right-radius: 20px;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+div p.bannertext{
+	position:absolute;
+	color: red;
+	padding-bottom: 0;
+	margin:0;
+	left: 150px;
+	top: 20px;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+#paragraphs {
+	background: lightgray;
+	margin:0;
+	padding-top: 10px;
+	overflow: auto;
+	width: 73%;
+	float: left;
+}
+
+#paragraphs p {
+	font-size: 16px;
+	background: white;
+	width: 100%;
+	border: 1px solid black; 
+	border-radius: 20px;
+	padding: 10px 10px 10px 10px;
+}
+
+#paragraphs p img {
+	display: block;
+	margin: 0;
+	float: left;
+	padding: 0;
+}
+
+.leftParagraphs {
+	float: left;
+	width: 40%;
+	margin-left: 20px;
+}
+	
+.rightParagraphs {
+	float: right;
+	width: 40%;
+	margin-right: 60px;
+}
+
+
+#paragraphs p.critic {
+	background: lightgray;
+	border:none;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#rightgreencol {
+	background: green;
+	width: 27%;
+	float: right;
+	border-top-right-radius: 20px; 
+}
+
+#rightgreencol p {
+	border: none;
+	margin-left: 10px;
+}
+
+#rightgreencol li {
+	list-style: none;
+}
+footer {
+background: green;
+clear: both;
+padding-top: 50px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+
+section{
+width: 70%;
+margin: auto;
+margin-bottom: 100px;
+}
