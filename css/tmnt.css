@@ -135,10 +135,12 @@ div p.bannertext{
 #rightgreencol p {
 	border: none;
 	margin-left: 10px;
+	margin-bottom: 0;
 }
 
-#rightgreencol li {
+#rightgreencol ul {
 	list-style: none;
+	margin-top: 0;
 }
 
 footer {
