@@ -15,7 +15,7 @@ header p {
 
 body {
 	background: url(../img/rancidbannerbg.png) repeat-x;
-	margin:0;
+	margin: 0;
 	background-color: #A2B964;
 	}
 	
@@ -47,16 +47,16 @@ TMNT image
 */
 .tmnt {
 	border-top-right-radius: 20px;
-	padding:0;
-	margin:0;
-	width:100%;
+	padding: 0;
+	margin: 0;
+	width: 100%;
 }
 
 div p.bannertext{
-	position:absolute;
+	position: absolute;
 	color: red;
 	padding-bottom: 0;
-	margin:0;
+	margin: 0;
 	left: 150px;
 	top: 20px;
 	font-size: 48px;
@@ -149,15 +149,20 @@ div p.bannertext{
 }
 
 footer {
-background: green;
-clear: both;
-padding-top: 50px;
-border-bottom-right-radius: 20px;
-border-bottom-left-radius: 20px;
+	background: green;
+	clear: both;
+	padding-top: 50px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
 }
 
 section{
-width: 70%;
-margin: auto;
-margin-bottom: 100px;
+	width: 70%;
+	margin: auto;
+	margin-bottom: 100px;
+}
+
+#wrap {
+	border-radius: 20px 20px;
+	box-shadow: 5px 5px 5px black;
 }
