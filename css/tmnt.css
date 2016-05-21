@@ -80,7 +80,7 @@ div p.bannertext{
 * paragraphs inside the div properties
 */
 #paragraphs p {
-	font-size: 16px;
+	font-size: 1em;
 	background: white;
 	width: 100%;
 	border: 1px solid black; 
@@ -133,6 +133,7 @@ div p.bannertext{
 	float: right;
 	border-top-right-radius: 20px;
 	height: 1181px;
+	font-size:  15px;
 }
 
 #rightgreencol p {
@@ -140,12 +141,13 @@ div p.bannertext{
 	margin-left: 10px;
 	margin-bottom: 0;
 	font-weight: bold;
+	font-size: 1em;
 }
 
 #rightgreencol ul {
 	list-style: none;
 	margin-top: 0;
-	font-size: small;
+	font-size: 1em;
 }
 
 footer {
@@ -165,4 +167,31 @@ section{
 #wrap {
 	border-radius: 20px 20px;
 	box-shadow: 5px 5px 5px black;
+}
+
+@media screen and (max-width: 480px){
+
+	#rightgreencol ul{
+		font-size: .8em;
+		margin-left: 0;
+	}
+
+	#rightgreencol li{
+
+		font-size: .7em;
+		margin-left: 0;
+	}
+	#rightgreencol p{
+
+		font-size: .7em;
+
+	}
+	.leftParagraphs{
+			float: none;
+	}
+	.rightParagraphs{
+
+float: none;
+margin-left: 20px;
+	}
 }
