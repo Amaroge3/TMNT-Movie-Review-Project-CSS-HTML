@@ -169,11 +169,13 @@ section{
 	box-shadow: 5px 5px 5px black;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 1042px){
+
 
 	#rightgreencol ul{
 		font-size: .8em;
 		margin-left: 0;
+		padding-left: 20px;
 	}
 
 	#rightgreencol li{
@@ -183,15 +185,28 @@ section{
 	}
 	#rightgreencol p{
 
-		font-size: .7em;
+		font-size: .6em;
 
 	}
 	.leftParagraphs{
 			float: none;
+			margin-left: 50px;
 	}
 	.rightParagraphs{
 
-float: none;
-margin-left: 20px;
+		float: none;
+		margin-left: 50px;
 	}
+	#paragraphs p.leftParagraph{
+		font-size: .5em;
+	}
+	
+	#paragraphs p.rightParagraph{
+		font-size: .5em;
+	}
+div p.bannertext{
+	left: 110px;
+	font-size: 30px;
+}
+
 }
